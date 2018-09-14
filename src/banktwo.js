@@ -1,0 +1,47 @@
+const bankTwo = [{
+  keyCode: 65,
+  keyTrigger: 'A',
+  id: 'Chord-1',
+  url: 'https://s3.amazonaws.com/freecodecamp/drums/Chord_1.mp3'
+}, {
+  keyCode: 83,
+  keyTrigger: 'S',
+  id: 'Chord-2',
+  url: 'https://s3.amazonaws.com/freecodecamp/drums/Chord_2.mp3'
+}, {
+  keyCode: 68,
+  keyTrigger: 'D',
+  id: 'Chord-3',
+  url: 'https://s3.amazonaws.com/freecodecamp/drums/Chord_3.mp3'
+}, {
+  keyCode: 70,
+  keyTrigger: 'F',
+  id: 'Shaker',
+  url: 'https://s3.amazonaws.com/freecodecamp/drums/Give_us_a_light.mp3'
+}, {
+  keyCode: 71,
+  keyTrigger: 'G',
+  id: 'Open-HH',
+  url: 'https://s3.amazonaws.com/freecodecamp/drums/Dry_Ohh.mp3'
+}, {
+  keyCode: 72,
+  keyTrigger: 'H',
+  id: 'Closed-HH',
+  url: 'https://s3.amazonaws.com/freecodecamp/drums/Bld_H1.mp3'
+}, {
+  keyCode: 74,
+  keyTrigger: 'J',
+  id: 'Punchy-Kick',
+  url: 'https://s3.amazonaws.com/freecodecamp/drums/punchy_kick_1.mp3'
+}, {
+  keyCode: 75,
+  keyTrigger: 'K',
+  id: 'Side-Stick',
+  url: 'https://s3.amazonaws.com/freecodecamp/drums/side_stick_1.mp3'
+}, {
+  keyCode: 76,
+  keyTrigger: 'L',
+  id: 'Snare',
+  url: 'https://s3.amazonaws.com/freecodecamp/drums/Brk_Snr.mp3'
+}];
+export default bankTwo;

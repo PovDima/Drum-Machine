@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Russo One;
+  user-select: none;
+  background-color: grey
+}
+
+.inner-container {
+  outline: 5px solid orange;
+  position: relative;
+  width: 660px;
+  text-align: center;
+  background-color: #929191;
+}
+
+.pad-bank {
+  width: 332px;
+  height: 272px;
+  display: inline-block;
+  margin: 20px;
+}
+
+.drum-pad {
+  position: relative;
+  float: left;
+  width: 100px;
+  height: 80px;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding-top: 35px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.controls-container {
+  width: 240px;
+  height: 272px;
+  display: inline-block;
+  margin: 40px 20px 0 10px;
+  vertical-align: top;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.select {
+  margin: auto;
+  border: 1px solid black;
+  width: 50px;
+  height: 20px;
+  padding: 1px;
+  background-color: black;
+}
+
+.inner {
+  width: 23px;
+  height: 19px;
+  background: blue;
+  border: 1px solid black;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+#display {
+  width: 200px;
+  background-color: gray;
+  margin: 15px auto;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.outer-select {
+  margin: auto;
+  border: 1px solid black;
+  width: 50px;
+  height: 20px;
+  padding: 1px;
+  background-color: black;
+}
+
+@media screen and (max-width: 650px) {
+  .inner-container {
+    transform: scale(0.7);
+  }
+}
